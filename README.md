@@ -1,7 +1,9 @@
 # Social-Media-Website
 
+Two app is added new_user and social
 
-firstly run it and go to admin page
+Firstly run it and go to admin page
+
 
 ### Todo
 
