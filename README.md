@@ -1,7 +1,7 @@
 # Social-Media-Website
 
 
-run it and go to admin page
+firstly run it and go to admin page
 
 ### Todo
 
