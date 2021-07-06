@@ -10,3 +10,4 @@ Firstly run it and go to admin page
 1. Authentication (Sign up and Login)
 2. Friend Request
 3. Home Page
+4. Add Post
