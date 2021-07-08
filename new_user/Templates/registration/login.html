@@ -1,10 +1,15 @@
-{% extends 'index.html' %}
+{% extends 'new_user/index.html' %}
 
 {% block content %}
     <h1>Login</h1>
     <form method="POST">
         {% csrf_token %}
-  	    {{ form.as_p }}
-        <button type="submit">Login</button>
+        <input type="text" name="Username" placeholder="Username"><br>
+        <input type="password" name="Password" placeholder="Password"><br>
+        <input type="submit">
     </form>
+
+    {% for m in messages %}
+    <h5>{{m}}</h5>
+    {% endfor %}
 {% endblock content%}

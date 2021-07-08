@@ -17,11 +17,11 @@ from django.contrib import admin
 from django.urls import path,include
 
 from new_user import views
+from social import views
 
 urlpatterns = [
-    path('',views.index,name='index'),
-    path('signup/',views.signup,name='signup'),
-    path('accounts/',include('django.contrib.auth.urls')),
+    path('',include('social.urls')),
+    path('accounts/',include('new_user.urls')),
     path('admin/', admin.site.urls),
     
 ]
