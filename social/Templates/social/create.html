@@ -1,0 +1,10 @@
+{% extends 'social/base.html' %}  
+{% block title %} Create New Post {% endblock %} 
+{% block content %} 
+Create Page
+<form method="POST" action="/create/">
+{% csrf_token %} 
+{{form.as_ul}}
+<button type="submit" , name="save">Create New</button>
+</form>
+{% endblock %}
